@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header-top{
+    width:100%;
+    height: 60px;
+    display: flex;
+    background:rgba(194, 193, 193,0.3);
+}
+header-top .container{
+    border:1px solid #ff0000;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:60px;
+}
+.hdr-left{
+    float: left;
+    padding:16px;
+}
+.hdr-right{
+    float: right;
+    padding:16px;
+}
+
+.container ,.container1,nav{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/************8888End Top Header ******************/
+ /*image clock open and closed */
+ .open-colse{
+     width:200px;
+     height: 45px;
+ }
+ .open-colse img{
+     width:26px;
+     height:26px;
+ }
+.open-colse p{
+    display: inline;
+    font-size:large;
+}
+.open-colse p span {
+    display: block;
+    font-size: small;
+}
+.logo {
+    display:inline-block;
+    margin:0 auto;
+    padding-top: 13px;;
+}
+.op-cl{
+    display: inline-block;
+}
+
+/*************************************************************/
+
+.container1{
+    height:100px;
+    
+}
+.inner-container{
+    height:80px;
+    padding-top: 20px;
+    position: relative;
+
+}
+.input-group{
+    top:30px;
+    position: absolute;
+    left:950px;
+
+}
+.input-group input{
+    padding:10px;
+    width:200px;
+    border-radius: 20px;
+}
+/*****************************************/
+
+.con-nav{
+    background:rgba(194, 193, 193,0.3);
+    padding:12px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 18px;
+    font-weight: 600;
+}
+/************************/
+.card{
+    float: right;
+    position: absolute;
+    width:100px;
+    height:42px;
+    background:rgba(40, 55, 55,0.6);
+    color:white;
+    left:1120px;
+    top:159px;
+
+}
+.card img{display: inline-block;}
+.card p{display: inline-block;
+font-size: 14px;}
